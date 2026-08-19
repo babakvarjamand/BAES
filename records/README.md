@@ -157,63 +157,71 @@ Evidence
 Review
    ↓
 Release
-
+````
 
 This relationship may become more formally defined as the BAES
 traceability model develops.
 
-6. Record Independence
+---
+
+## 6. Record Independence
 
 An engineering record should describe a decision or event rather than
 silently rewriting history.
 
 When a previous decision is changed, the preferred approach is to:
 
-Preserve the previous record.
-Create a new record describing the change.
-Establish the relationship between the records.
+1. Preserve the previous record.
+2. Create a new record describing the change.
+3. Establish the relationship between the records.
 
 Historical records should not be modified merely to make the project
 history appear cleaner.
 
-7. Restricted Material
+---
+
+## 7. Restricted Material
 
 Not every engineering record must be public.
 
 Records may contain or reference:
 
-Unreleased research
-Internal analysis
-Unpublished foundational work
-Security-sensitive information
-Premature implementation details
-Other material subject to publication restrictions
+* Unreleased research
+* Internal analysis
+* Unpublished foundational work
+* Security-sensitive information
+* Premature implementation details
+* Other material subject to publication restrictions
 
 Such material should remain restricted until explicitly approved for
 publication.
 
-The existence of the records/ directory therefore does not imply
+The existence of the `records/` directory therefore does not imply
 that every project record is publicly disclosed.
 
 See:
 
-docs/publication-policy.md
+`docs/publication-policy.md`
 
-8. Public Record Quality
+---
+
+## 8. Public Record Quality
 
 Public engineering records should be:
 
-Clear
-Accurate
-Traceable
-Explicit about status
-Honest about uncertainty
-Free from retrospective distortion
+* Clear
+* Accurate
+* Traceable
+* Explicit about status
+* Honest about uncertainty
+* Free from retrospective distortion
 
 A record should not present an assumption as an established fact merely
 because the project later adopted it.
 
-9. Relationship to the Specification
+---
+
+## 9. Relationship to the Specification
 
 Engineering records are not themselves normative requirements.
 
@@ -222,6 +230,7 @@ of the standard.
 
 The relationship may eventually be represented as:
 
+```text
 Engineering Record
         ↓
 Decision / Finding
@@ -231,44 +240,54 @@ Principle
 Requirement
         ↓
 Specification
+```
 
 The existence of a record does not automatically make its contents
 normative.
 
-10. Relationship to Evidence
+---
+
+## 10. Relationship to Evidence
 
 Records may reference evidence, research, observations, or analysis.
 
 However:
 
-A record documenting an observation is not itself proof of the
-observation's validity.
+> **A record documenting an observation is not itself proof of the
+> observation's validity.**
 
 Evidence validity remains a separate concern.
 
 BAES therefore maintains a distinction between:
 
-The fact that a decision occurred.
-The reasoning behind the decision.
-The evidence supporting the reasoning.
-The validity of that evidence.
-11. Record Naming
+* The fact that a decision occurred.
+* The reasoning behind the decision.
+* The evidence supporting the reasoning.
+* The validity of that evidence.
+
+---
+
+## 11. Record Naming
 
 As the record system develops, a consistent naming convention should
 be established.
 
 A future convention may use identifiers such as:
 
+```text
 DEC-001
 CHG-001
 REV-001
 REL-001
 PUB-001
 DEP-001
+```
 
 The final identifier scheme has not yet been established.
 
-12. Record Immutability
+---
+
+## 12. Record Immutability
 
 Once a significant public engineering record has been formally
 released, its historical content should generally remain preserved.
@@ -276,30 +295,34 @@ released, its historical content should generally remain preserved.
 Corrections or subsequent changes should preferably be represented
 through:
 
-A new record
-A correction notice
-A superseding record
-A revised release
+* A new record
+* A correction notice
+* A superseding record
+* A revised release
 
 rather than silently rewriting the historical record.
 
-13. Future Record System
+---
+
+## 13. Future Record System
 
 As BAES matures, the record system may define:
 
-Record schemas
-Unique identifiers
-Required metadata
-Status transitions
-Approval requirements
-Traceability relationships
-Review requirements
-Publication rules
-Archival rules
+* Record schemas
+* Unique identifiers
+* Required metadata
+* Status transitions
+* Approval requirements
+* Traceability relationships
+* Review requirements
+* Publication rules
+* Archival rules
 
 These mechanisms will be introduced only when sufficiently justified.
 
-14. Current State
+---
+
+## 14. Current State
 
 The BAES record system is currently being established.
 
@@ -307,19 +330,25 @@ At this stage, the repository defines the purpose and intended role of
 engineering records but does not yet claim that a complete formal
 record-management system has been implemented.
 
-15. Guiding Principle
+---
+
+## 15. Guiding Principle
 
 The current working principle is:
 
-Important engineering decisions should leave an inspectable record.
+> **Important engineering decisions should leave an inspectable record.**
 
 The objective is not to document every minor activity.
 
 The objective is to preserve the decisions and changes necessary to
 understand the engineering evolution of BAES.
 
-16. Related Documents
-docs/current-status.md
-docs/roadmap.md
-docs/publication-policy.md
-governance/README.md
+---
+
+## 16. Related Documents
+
+* `docs/current-status.md`
+* `docs/roadmap.md`
+* `docs/publication-policy.md`
+* `governance/README.md`
+
