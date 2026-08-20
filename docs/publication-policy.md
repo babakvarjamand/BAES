@@ -1,313 +1,704 @@
 # BAES Publication Policy
 
-**Document Status:** Working Policy
-**Project Status:** Under Development
-**Last Updated:** 2026-08-19
+## Babak AI Engineering Standard
+
+**Document Status:** Public  
+**Project Status:** Under Development  
+**Policy Version:** 0.1  
+**Last Updated:** `YYYY-MM-DD`
 
 ---
 
 ## 1. Purpose
 
-This document defines the publication boundary for the BAES project.
+This document defines the public publication policy of the
+**Babak AI Engineering Standard (BAES)**.
 
-The BAES repository is intended to function as the **Public Engineering Record** of the project.
+Its purpose is to establish a clear boundary between:
 
-However, public engineering record does not mean that every project artifact, research result, foundational analysis, or development record must be publicly disclosed.
+- Public engineering material
+- Material under publication review
+- Restricted development material
 
-The purpose of this policy is to establish a controlled boundary between:
-
-* Public project information
-* Publishable engineering documentation
-* Restricted development material
-* Unreleased research and foundational work
+The policy exists to preserve the integrity, traceability, and
+controlled evolution of BAES while allowing appropriate public
+visibility into the project.
 
 ---
 
-## 2. Public Engineering Record
+## 2. Publication Philosophy
 
-The public repository may contain information necessary for an external reader to understand:
+BAES is developed as an engineering standard.
 
-* What BAES is
-* Why BAES exists
-* The current publicly declared project status
-* The public development roadmap
-* Publicly released principles
-* Publicly released specifications
-* Publicly released research
-* Publicly released case studies
-* Public release records
+Publication is therefore treated as an engineering activity rather than
+a simple act of copying development material into a public repository.
+
+Material should be published when it is sufficiently mature,
+appropriately reviewed, and suitable for inclusion in the public
+engineering record.
+
+The guiding principle is:
+
+> **Publication is a governed engineering action, not merely a
+> documentation action.**
+
+---
+
+## 3. Publication States
+
+BAES material may have one of the following publication states:
+
+```text
+Restricted
+    ↓
+Pending Publication Review
+    ↓
+Public
+````
+
+A document may also be:
+
+```text
+Deferred
+Withdrawn
+Superseded
+```
+
+where appropriate.
+
+---
+
+## 4. Restricted Material
+
+Restricted material is development material that is intentionally not
+part of the public BAES record.
+
+Examples may include:
+
+* Unreleased Foundation material
+* Preliminary conceptual work
+* Internal research
+* Unvalidated findings
+* Internal ontology development
+* Unreleased specifications
+* Internal governance material
+* Draft engineering records
+* Material undergoing substantial revision
+
+Restricted material should not be published merely because it exists in
+a completed or readable form.
+
+---
+
+## 5. Foundation Protection
+
+BAES contains foundational engineering work developed during the
+formation of the standard.
+
+Not all Foundation material is intended for immediate public
+publication.
+
+The public repository therefore does not constitute a complete
+disclosure of the BAES development environment.
+
+The absence of a Foundation artifact from the public repository should
+not be interpreted as evidence that:
+
+* The artifact does not exist
+* The concept has been abandoned
+* The concept is non-normative
+* The concept is incomplete
+* The concept is invalid
+
+Publication status and engineering validity are separate concerns.
+
+---
+
+## 6. Public Material
+
+Public material is material intentionally included in the public BAES
+engineering record.
+
+Examples may include:
+
+* Project description
+* Public roadmap
 * Public governance information
+* Public contribution guidance
+* Public research records
+* Published case studies
+* Published decisions
+* Published changes
+* Published reviews
+* Published releases
+* Public specifications
+* Public documentation
 
-The public record should provide sufficient transparency about the project without requiring disclosure of every internal development artifact.
-
----
-
-## 3. Restricted Development Material
-
-Certain BAES materials may remain outside the public repository or outside the publicly disclosed portion of the project.
-
-This may include:
-
-* Unreleased foundational research
-* Internal conceptual development
-* Unpublished ontology work
-* Unreleased theoretical models
-* Preliminary research findings
-* Internal analysis
-* Unresolved strategic decisions
-* Experimental material not yet ready for publication
-* Internal review material
-* Research artifacts whose premature publication could compromise the project's development
-* Other material explicitly designated as restricted
-
-Restricted material must not be published merely because a corresponding public documentation category exists.
+Only material explicitly approved for publication should be treated as
+part of the public BAES record.
 
 ---
 
-## 4. Publication Principle
+## 7. Pending Publication Review
 
-The default rule is:
+Material marked:
 
-> **Maturity precedes publication.**
+`Pending Publication Review`
 
-An artifact should be published only when its publication is appropriate for its current maturity, purpose, and evidentiary status.
+has been prepared for possible publication but has not yet completed
+the applicable publication process.
 
-The existence of a concept within BAES development does not imply that the concept is ready for public specification.
+Such material should not be treated as an authoritative public
+statement of BAES.
+
+In particular:
+
+```text
+Draft
+    ≠
+Reviewed
+    ≠
+Approved
+    ≠
+Published
+```
 
 ---
 
-## 5. Internal Development Does Not Equal Public Specification
+## 8. Publication Criteria
 
-A concept may exist internally in several states before becoming suitable for public release.
+Before significant material is published, the following questions
+should be considered:
+
+1. Is the material within the declared public scope of BAES?
+2. Is the material sufficiently mature?
+3. Has the material received the appropriate review?
+4. Are important claims appropriately supported?
+5. Are known limitations documented?
+6. Does publication introduce unintended scope expansion?
+7. Does publication conflict with another public artifact?
+8. Is the publication status explicit?
+9. Is the material traceable to relevant decisions, research, or
+   changes where appropriate?
+10. Does publication reveal restricted material unnecessarily?
+
+Not every publication requires the same level of review.
+
+The required level should be proportionate to the significance and
+potential impact of the material.
+
+---
+
+## 9. Publication Authority
+
+Publication authority is distinct from:
+
+* Research authority
+* Decision authority
+* Execution authority
+* Review authority
+
+The existence of a completed document does not automatically authorize
+its publication.
+
+Significant publication decisions should be attributable to the
+appropriate authority.
+
+---
+
+## 10. Public Repository Boundary
+
+The public GitHub repository represents the **public engineering
+record** of BAES.
+
+It should not be interpreted as a mirror of every internal development
+artifact.
+
+The repository may therefore intentionally contain:
+
+* Public summaries
+* Public structural information
+* Public records
+* Public specifications
+* Public research
+* Public roadmap information
+
+while excluding:
+
+* Restricted Foundation material
+* Internal drafts
+* Unreleased research
+* Sensitive development artifacts
+* Material awaiting publication approval
+
+---
+
+## 11. Public Engineering Record
+
+The purpose of the public repository is not merely to show the current
+state of BAES.
+
+Where appropriate, it should preserve enough information to understand
+the engineering evolution of the project.
+
+The public record may therefore include relationships such as:
+
+```text
+Research
+   ↓
+Decision
+   ↓
+Change
+   ↓
+Review
+   ↓
+Release
+```
+
+This relationship allows significant changes to remain traceable.
+
+---
+
+## 12. Publication Does Not Establish Truth
+
+Publication should not be confused with absolute validity.
+
+A published artifact may still contain:
+
+* Limitations
+* Uncertainty
+* Open questions
+* Known disagreements
+* Areas requiring further research
+
+Publication means that the material has been intentionally admitted
+into the public engineering record.
+
+It does not mean that every proposition contained within the material
+has been proven universally correct.
+
+---
+
+## 13. Evidence and Publication
+
+Evidence status should remain distinguishable from publication status.
 
 For example:
 
 ```text
-Internal Inquiry
-      ↓
-Exploration
-      ↓
-Candidate Concept
-      ↓
-Analysis
-      ↓
-Review
-      ↓
-Validation
-      ↓
-Publicly Released Concept
-      ↓
-Potential Normative Requirement
+Evidence Status
+    ≠
+Publication Status
 ```
 
-The transition from one state to another must not be assumed to be automatic.
+A published research record may explicitly report preliminary or
+inconclusive evidence.
 
-In particular:
-
-> **An internal concept is not automatically a public principle.**
-
-And:
-
-> **A public principle is not automatically a normative requirement.**
+Likewise, a restricted artifact may contain highly mature work that has
+simply not yet been approved for public publication.
 
 ---
 
-## 6. Protection of Foundational Work
+## 14. AI-Generated Material
 
-Foundational BAES work may contain original conceptual structures, analytical methods, terminology, models, or research results that are not yet intended for public disclosure.
+AI systems may participate in the creation, analysis, review, or
+preparation of BAES material.
 
-Such material may therefore remain restricted until an explicit publication decision is made.
+AI-generated content does not automatically qualify for publication.
 
-The purpose of this restriction is not to undermine transparency.
+Before significant AI-assisted material enters the public engineering
+record, it should be evaluated for:
 
-It is to prevent premature disclosure from:
+* Accuracy
+* Unsupported claims
+* Fabricated references
+* Terminological consistency
+* Scope compliance
+* Internal consistency
+* Evidence quality
+* Appropriate attribution
 
-* Removing necessary development time
-* Creating misleading interpretations
-* Publishing incomplete concepts
-* Weakening the distinction between candidate and established knowledge
-* Compromising ongoing research
-* Causing premature external adoption of unfinished mechanisms
-
----
-
-## 7. Public Disclosure Must Be Deliberate
-
-Publication of a BAES artifact should be treated as an engineering decision.
-
-Before publication, the project should consider:
-
-* Is the artifact mature enough?
-* Is its terminology sufficiently stable?
-* Is its status clearly identified?
-* Is its evidence basis understood?
-* Could publication create a misleading interpretation?
-* Does it contain material intended to remain restricted?
-* Does it expose unfinished foundational work?
-* Does publication affect future research or validation?
-* Is the artifact ready to become part of the public engineering record?
+Human engineering authority remains responsible for applicable
+publication decisions.
 
 ---
 
-## 8. Status Must Be Visible
+## 15. Publication of Research
 
-Public BAES documents should clearly identify their status.
+Research may be published when its publication status is appropriate
+and the relevant review requirements have been satisfied.
 
-Where appropriate, documents should distinguish between states such as:
+Published research should distinguish, where applicable:
 
-* Working
-* Draft
+```text
+Observation
+    ↓
+Result
+    ↓
+Finding
+    ↓
+Interpretation
+    ↓
+Engineering Implication
+```
+
+A research finding should not automatically become:
+
+* A BAES principle
+* A normative requirement
+* A governance rule
+
+Such transitions require their own appropriate processes.
+
+---
+
+## 16. Publication of Principles
+
+A principle should not be treated as publicly established merely
+because it appears in a draft document.
+
+Where principles become public, their status should be explicit.
+
+Possible states may include:
+
 * Candidate
-* Established
 * Under Review
-* Released
+* Accepted
 * Deprecated
 * Superseded
 
-Status terminology may evolve as the BAES governance model matures.
+The publication of a candidate principle does not necessarily mean
+that it is a final normative element of BAES.
 
 ---
 
-## 9. Evidence Must Not Be Misrepresented
+## 17. Publication of Specifications
 
-Publication must not convert uncertainty into apparent certainty.
+Specifications require particular care because readers may interpret
+them as normative.
 
-Where relevant, public documents should distinguish between:
+Before publication, the status of the specification should be
+explicitly identified.
 
-* Claim
-* Observation
-* Interpretation
+Possible states may include:
+
+* Draft
+* Experimental
+* Candidate
+* Stable
+* Superseded
+
+The repository should avoid presenting unfinished specification
+material as a final standard.
+
+---
+
+## 18. Publication of Case Studies
+
+Case studies may be published to demonstrate, investigate, challenge,
+or evaluate BAES.
+
+A case study should not be interpreted as proof that BAES is universally
+effective.
+
+Case studies should preserve relevant:
+
+* Context
+* Scope
+* Participants
+* Authority model
+* Procedure
 * Evidence
-* Hypothesis
-* Candidate Principle
-* Established Principle
-* Normative Requirement
+* Findings
+* Limitations
+* Unexpected outcomes
 
-The project should not imply that an assertion has been validated merely because it has been documented.
+Negative results and failures may be valuable parts of the public
+engineering record.
 
 ---
 
-## 10. Repository Structure and Publication Boundary
+## 19. Publication of Decisions
 
-The existence of a directory in the public repository does not require that all related development material be placed there immediately.
+Significant public decisions may be documented through Decision
+Records.
 
-Public structure may therefore precede public content.
+A public Decision Record should make it possible to understand:
 
-For example:
+* What was decided
+* Why it was decided
+* What alternatives were considered
+* What evidence was relevant
+* What authority applied
+* What consequences were expected
+
+Restricted information should not be disclosed merely to make a record
+appear more complete.
+
+---
+
+## 20. Publication of Changes
+
+Significant public changes should be traceable through Change Records.
+
+A Change Record should distinguish:
 
 ```text
-BAES/
-├── docs/
-├── principles/
-├── specification/
-├── research/
-├── case-studies/
-├── governance/
-├── records/
-└── templates/
+Proposed
+    ↓
+Reviewed
+    ↓
+Approved
+    ↓
+Implemented
+    ↓
+Verified
 ```
 
-may exist as a public architectural framework while significant material within these categories remains under development or unpublished.
+A proposed change should not be represented as an implemented change.
 
 ---
 
-## 11. Foundation Material
+## 21. Publication of Releases
 
-Foundational BAES material is subject to particular publication control.
+A release represents a formally identified state of publicly released
+BAES material.
 
-Until explicitly designated for public release, foundational research and development records should be treated as **unreleased project material**.
+A release should, where appropriate, identify:
 
-Public documentation may describe the existence, purpose, or high-level status of foundational work without exposing its substantive contents.
-
----
-
-## 12. Release Decisions
-
-A publication decision should be explicit.
-
-Where appropriate, the project should record:
-
-* What is being released
-* Why it is being released
-* The status of the material
-* The intended audience
+* Version
+* Release scope
+* Included changes
+* Relevant decisions
+* Relevant reviews
 * Known limitations
-* Relationship to other BAES artifacts
-* Applicable version or release identifier
+* Publication status
+* Approval status
 
-Publication should therefore be traceable to an explicit project decision.
-
----
-
-## 13. External Dissemination
-
-Professional and public dissemination channels are separate from the engineering repository.
-
-Examples include:
-
-* LinkedIn
-* Research publications
-* Conferences
-* Academic repositories
-* Archival services
-* Other professional communication channels
-
-These channels should not be used to disclose material before it has been designated for publication.
-
-In particular:
-
-> **External visibility must follow engineering maturity, not precede it.**
+A release should be distinguishable from an ordinary repository edit.
 
 ---
 
-## 14. Future Archival Publication
+## 22. Versioning
 
-Formal BAES releases may eventually be archived through external scholarly or archival services.
+Public BAES material should be versioned where versioning provides
+meaningful traceability.
 
-Such publication is expected to occur only after the relevant release has satisfied the project's release criteria.
+Version changes should not be used merely to create the appearance of
+progress.
 
-Archival publication is therefore considered a later stage of the BAES development lifecycle.
-
----
-
-## 15. Principle of Controlled Disclosure
-
-The BAES project adopts the following working principle:
-
-> **Publish what is sufficiently mature to be useful and defensible; retain what is not yet ready for responsible disclosure.**
-
-This principle applies to both technical documentation and research material.
+A version should represent a deliberate state of the public engineering
+record.
 
 ---
 
-## 16. Current Publication Position
+## 23. Corrections
 
-At the current stage of BAES development:
+Errors discovered in public material should be corrected through an
+appropriate change process.
 
-* The repository is public.
-* High-level project identity is public.
-* Project status is public.
-* Development direction is public.
-* The existence of ongoing foundational work is public.
-* Unreleased foundational content is not automatically public.
-* Detailed foundational research remains subject to controlled publication.
-* Public specification is not yet released.
-* External dissemination is intentionally deferred.
-* Archival publication is intentionally deferred.
+Where the error is significant, the public record should preserve
+sufficient traceability to understand:
+
+* What was incorrect
+* What was corrected
+* Why the correction was necessary
+* Which version was affected
+
+Corrections should not silently erase significant engineering history
+where doing so would damage traceability.
 
 ---
 
-## 17. Policy Evolution
+## 24. Withdrawal
 
-This document is itself a working project policy.
+Material may be withdrawn from the public record when necessary.
 
-As BAES governance matures, the publication policy may be revised to introduce more precise:
+Examples may include:
 
-* Classification levels
-* Release procedures
-* Review requirements
-* Publication authorities
-* Disclosure controls
-* Versioning rules
+* Material published prematurely
+* Material containing significant errors
+* Material published outside authorized scope
+* Material requiring replacement
+* Material whose publication should not have occurred
 
-Changes to this policy should remain traceable.
+Where practical, withdrawal should itself be recorded.
+
+Withdrawal does not necessarily imply deletion of all historical
+records.
+
+---
+
+## 25. Supersession
+
+When a public artifact is replaced by a newer artifact, the older
+artifact may be marked:
+
+`Superseded`
+
+The relationship between the old and new artifacts should be preserved
+where practical.
+
+This allows readers to reconstruct the evolution of BAES.
+
+---
+
+## 26. Security and Sensitive Information
+
+Public BAES material should not contain information that should remain
+restricted.
+
+Contributors and maintainers should avoid publishing:
+
+* Credentials
+* Secrets
+* Private personal information
+* Unreleased sensitive material
+* Internal access information
+* Other information not intended for public disclosure
+
+The public repository should contain only information appropriate for
+its publication status.
+
+---
+
+## 27. Licensing and Attribution
+
+Publication status and licensing status are separate concerns.
+
+The publication of material does not automatically imply unrestricted
+reuse rights.
+
+Applicable licensing terms should be stated explicitly when
+established.
+
+Contributions and incorporated external material should receive
+appropriate attribution where applicable.
+
+---
+
+## 28. Publication Review
+
+A publication review may consider:
+
+### Technical Quality
+
+* Accuracy
+* Consistency
+* Completeness
+* Clarity
+
+### Engineering Quality
+
+* Traceability
+* Scope control
+* Authority
+* Reproducibility where applicable
+
+### Research Quality
+
+* Evidence
+* Methodology
+* Limitations
+* Uncertainty
+
+### Governance
+
+* Approval
+* Publication authority
+* Impact
+* Conflicts
+
+### Security
+
+* Sensitive information
+* Restricted material
+* Unintended disclosure
+
+---
+
+## 29. Publication Decision
+
+A publication review may result in:
+
+* `Approved`
+* `Approved with Changes`
+* `Deferred`
+* `Rejected`
+* `Requires Further Review`
+
+The decision should be recorded where appropriate.
+
+---
+
+## 30. Current Publication Policy
+
+BAES is currently under active development.
+
+The project therefore prioritizes:
+
+1. Public structural transparency
+2. Clear project identity
+3. Public governance transparency
+4. Traceable engineering records
+5. Controlled publication
+6. Protection of unreleased foundational work
+
+The repository may therefore expose the architecture and direction of
+BAES before exposing the complete underlying engineering content.
+
+---
+
+## 31. Policy Evolution
+
+This policy is itself subject to controlled revision.
+
+Changes to this policy should be traceable through the applicable BAES
+change and review mechanisms.
+
+As BAES matures, this policy may be extended to address:
+
+* Formal publication gates
+* Release classes
+* External review
+* Conformance publication
+* Licensing integration
+* Archival policy
+* Long-term preservation
+* DOI and research repository publication
+
+---
+
+## 32. Related Documents
+
+### Governance
+
+* `governance/README.md`
+
+### Records
+
+* `records/README.md`
+
+### Templates
+
+* `templates/decision-record.md`
+* `templates/research-record.md`
+* `templates/case-study.md`
+* `templates/change-record.md`
+* `templates/review-record.md`
+* `templates/release-record.md`
+
+### Project Documentation
+
+* `docs/what-is-baes.md`
+* `docs/why-does-baes-exist.md`
+* `docs/current-status.md`
+* `docs/roadmap.md`
+
+---
+
+## 33. Final Principle
+
+> **Publish deliberately, preserve traceability, protect unfinished
+> work, and never confuse public availability with universal validity.**
+
