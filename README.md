@@ -262,4 +262,5 @@ Licensing for the BAES standard and its associated materials is currently under 
 ---
 
 *This repository is the public engineering record of the ongoing development of the Babak AI Engineering Standard.*
-:::
+
+![Babak AI Engineering Standard](image.jpg)
