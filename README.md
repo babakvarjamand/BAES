@@ -157,6 +157,7 @@ BAES/
 │
 ├── docs/
 │   ├── current-status.md
+│   ├── publication-policy.md
 │   ├── roadmap.md
 │   ├── what-is-baes.md
 │   └── why-does-baes-exist.md
