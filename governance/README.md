@@ -1,325 +1,587 @@
 # BAES Governance
 
-**Document Status:** Working Governance Record  
-**Project Status:** Under Development  
-**Last Updated:** 2026-08-19
+## Babak AI Engineering Standard
+
+**Status:** Under Development  
+**Document Type:** Public Governance Overview
 
 ---
 
 ## 1. Purpose
 
-This document describes the public governance direction of the
-**Babak AI Engineering Standard (BAES)**.
+This document describes the publicly available governance model of the
+Babak AI Engineering Standard (BAES).
 
-It establishes the high-level governance structure through which BAES
-is expected to evolve, while intentionally avoiding disclosure of
-unreleased foundational research and internal development material.
+Its purpose is to establish how significant engineering decisions,
+changes, reviews, and releases are governed while preserving the
+distinction between:
 
----
+- Intent
+- Authority
+- Decision
+- Execution
+- Review
+- Publication
 
-## 2. Governance Objective
-
-The purpose of BAES governance is to ensure that the development of the
-standard remains:
-
-- Controlled
-- Traceable
-- Reviewable
-- Evidence-aware
-- Human-governed
-- Resistant to uncontrolled scope expansion
-- Capable of disciplined evolution
-
-Governance exists to control the evolution of the standard without
-becoming a substitute for the engineering content of the standard.
+This document does not disclose restricted BAES Foundation material.
 
 ---
 
-## 3. Human Authority
+## 2. Governance Philosophy
 
-BAES development remains under explicit human engineering authority.
+BAES treats governance as a distinct engineering concern.
 
-AI systems may participate in activities such as:
+The ability to perform an action does not automatically establish the
+authority to decide that the action should be performed.
 
-- Research
-- Analysis
-- Drafting
-- Evaluation
-- Documentation
-- Structured inquiry
-- Technical assistance
-
-However, AI participation does not independently establish:
-
-- Project intent
-- Project scope
-- Governance authority
-- Final publication authority
-- Final release authority
-
-AI may assist in developing BAES, but it does not become the governing
-authority of BAES.
-
----
-
-## 4. Delegated Authority
-
-Authority may be delegated for specific activities.
-
-Delegation should be:
-
-- Explicit
-- Bounded
-- Traceable
-- Appropriate to the assigned activity
-- Revocable where necessary
-
-Delegated execution authority must not automatically be interpreted as
-general governance authority.
-
----
-
-## 5. Scope Governance
-
-BAES must not expand its own scope implicitly.
-
-A proposed expansion of:
-
-- Domain
-- Purpose
-- Applicability
-- Normative requirements
-- Governance authority
-- Conformance expectations
-
-should be explicitly identified and evaluated before becoming part of
-the public standard.
-
----
-
-## 6. Change Governance
-
-Significant changes to BAES should be traceable.
-
-Changes may include:
-
-- New concepts
-- Revised definitions
-- New principles
-- Revised principles
-- New normative requirements
-- Removed requirements
-- Scope changes
-- Governance changes
-- Release changes
-
-Where appropriate, significant changes should record:
-
-1. What changed.
-2. Why it changed.
-3. What motivated the change.
-4. What evidence or reasoning supported it.
-5. What previous material it affects.
-6. What consequences are expected.
-
----
-
-## 7. Publication Governance
-
-Not every BAES development artifact is automatically eligible for
-publication.
-
-Publication should be treated as an explicit project decision.
-
-The project maintains a distinction between:
+Likewise:
 
 ```text
-Internal Development
+Capability
+    ≠
+Authority
+````
+
+and:
+
+```text
+Execution
+    ≠
+Decision
+```
+
+Governance exists to maintain these distinctions.
+
+---
+
+## 3. Human Engineering Authority
+
+BAES development operates under human engineering authority.
+
+Human authority is responsible for establishing and protecting:
+
+* Project intent
+* Project scope
+* Governance boundaries
+* Publication boundaries
+* Acceptance of significant engineering decisions
+* Acceptance of significant changes
+* Release authorization
+
+AI systems may participate in engineering activities but do not
+automatically acquire governance authority through participation.
+
+---
+
+## 4. AI Participation
+
+AI systems may assist with BAES development.
+
+Examples include:
+
+* Research
+* Analysis
+* Drafting
+* Classification
+* Evaluation
+* Documentation
+* Cross-reference analysis
+* Case-study analysis
+* Technical exploration
+
+AI participation does not automatically grant:
+
+* Decision authority
+* Governance authority
+* Publication authority
+* Scope authority
+* Release authority
+
+AI-generated material remains subject to the applicable review and
+decision process.
+
+---
+
+## 5. Authority Model
+
+BAES distinguishes between several forms of authority.
+
+### 5.1 Intent Authority
+
+Authority concerning the intended purpose and direction of BAES.
+
+---
+
+### 5.2 Scope Authority
+
+Authority concerning what is and is not within the declared scope of
+BAES.
+
+---
+
+### 5.3 Decision Authority
+
+Authority to accept a significant engineering decision.
+
+---
+
+### 5.4 Execution Authority
+
+Authority to perform an approved action.
+
+---
+
+### 5.5 Review Authority
+
+Authority to conduct or authorize a review.
+
+---
+
+### 5.6 Publication Authority
+
+Authority to determine whether material may enter the public
+engineering record.
+
+---
+
+### 5.7 Release Authority
+
+Authority to approve and publish a formal BAES release.
+
+---
+
+## 6. Authority Is Delegated, Not Transferred
+
+Where authority is delegated, the delegation should be explicit.
+
+Delegation should identify, where applicable:
+
+* Delegating authority
+* Receiving party
+* Delegated authority
+* Scope of delegation
+* Limitations
+* Duration
+* Revocation conditions
+
+Delegation does not necessarily transfer ultimate governance
+responsibility.
+
+---
+
+## 7. Governance vs Execution
+
+BAES maintains a distinction between deciding that an action is
+authorized and performing that action.
+
+Conceptually:
+
+```text
+Governance
+    ↓
+Authorization
+    ↓
+Execution
+    ↓
+Verification
+    ↓
+Review
+```
+
+Execution should not be interpreted as evidence that the underlying
+decision was properly authorized.
+
+---
+
+## 8. Decision Lifecycle
+
+Significant decisions should be traceable through an explicit
+lifecycle.
+
+A simplified lifecycle is:
+
+```text
+Question / Problem
+        ↓
+Investigation
+        ↓
+Decision Proposal
         ↓
 Review
         ↓
-Publication Decision
+Decision
         ↓
-Public Engineering Record
-````
-
-Unreleased foundational research and internal development material may
-remain outside the public record until an explicit publication decision
-is made.
-
-For the current publication boundary, see:
-
-`docs/publication-policy.md`
-
----
-
-## 8. Review
-
-BAES is intended to become independently reviewable as it matures.
-
-Review may occur at different levels, including:
-
-* Internal project review
-* Technical review
-* Evidence review
-* Specification review
-* Public review
-* Future external or independent review
-
-The existence and authority of each review mechanism will be defined
-more precisely as BAES governance matures.
-
----
-
-## 9. Evidence and Governance
-
-Governance decisions should not be confused with evidence of the truth
-of a technical claim.
-
-A governance decision may determine that a document is:
-
-* Accepted
-* Published
-* Deferred
-* Revised
-* Deprecated
-
-without establishing that every claim within that document is
-empirically validated.
-
-BAES therefore maintains a distinction between:
-
-```text
-Governance Decision
-        ≠
-Evidence Validity
+Implementation
+        ↓
+Verification
 ```
 
----
-
-## 10. Status Management
-
-BAES artifacts may have different development states.
-
-Potential states include:
-
-* Working
-* Draft
-* Candidate
-* Under Review
-* Established
-* Released
-* Deprecated
-* Superseded
-
-The final status model and transition rules remain under development.
+The exact process may vary according to the nature and significance of
+the decision.
 
 ---
 
-## 11. Release Governance
+## 9. Change Governance
 
-A formal BAES release should occur only after the relevant release
-criteria have been satisfied.
+Significant changes should be explicitly recorded.
 
-Release governance is expected to include consideration of:
+A typical change lifecycle is:
 
-* Specification completeness
-* Terminology consistency
-* Traceability
-* Evidence status
-* Review status
-* Known limitations
-* Documentation integrity
-* Version identification
+```text
+Change Proposal
+       ↓
+Impact Analysis
+       ↓
+Review
+       ↓
+Approval
+       ↓
+Implementation
+       ↓
+Validation
+       ↓
+Record Update
+```
 
-A publicly accessible document is not automatically a formal BAES
-release.
-
----
-
-## 12. Governance Records
-
-As BAES matures, governance records may include:
-
-* Decision records
-* Change records
-* Review records
-* Release records
-* Publication decisions
-* Deprecation decisions
-* Scope decisions
-
-These records are intended to make the evolution of BAES reconstructable.
+A proposed change is not automatically an authorized change.
 
 ---
 
-## 13. Public vs. Restricted Governance Material
+## 10. Review Independence
 
-The public repository may document the existence and high-level
-operation of BAES governance.
+Where appropriate, important artifacts should be independently
+reviewable.
 
-Detailed internal governance mechanisms may remain restricted where
-their publication would expose unreleased foundational work or
-premature implementation details.
+Independent review may be particularly valuable for:
 
-The principle is:
+* Significant specification changes
+* Normative material
+* Governance changes
+* Evidence-sensitive decisions
+* Major releases
+* High-impact case studies
 
-> **Governance transparency does not require disclosure of unfinished
-> foundational research.**
+The required level of independence depends on the significance and
+risk of the artifact under review.
 
 ---
 
-## 14. Future Governance Development
+## 11. Publication Governance
 
-Future versions of this governance model may define:
+Not every artifact created during BAES development is necessarily
+intended for immediate public release.
 
-* Formal authority roles
-* Decision classes
-* Approval requirements
-* Change-control procedures
-* Review procedures
-* Release procedures
-* Deprecation procedures
-* Dispute handling
+Publication status may include:
+
+```text
+Restricted
+    ↓
+Pending Publication Review
+    ↓
+Approved for Publication
+    ↓
+Public
+```
+
+Material may remain restricted when publication would:
+
+* Prematurely expose unfinished work
+* Reveal sensitive development material
+* Create confusion about the current standard
+* Expose internal research
+* Require further validation
+
+Publication is therefore a governed engineering action.
+
+---
+
+## 12. Foundation Protection
+
+BAES contains foundational engineering work that may not be publicly
+released during development.
+
+The public governance model therefore recognizes a distinction between:
+
+```text
+Public BAES Material
+        and
+Restricted BAES Material
+```
+
+The existence of restricted material does not imply that it is
+normative, final, or immutable.
+
+Its publication is controlled independently.
+
+---
+
+## 13. Scope Governance
+
+BAES does not permit implicit scope expansion.
+
+A proposal that introduces a new domain, purpose, authority model, or
+major capability should be explicitly identified as a potential scope
+change.
+
+Conceptually:
+
+```text
+Proposal
+   ↓
+Scope Assessment
+   ↓
+Authorization
+   ↓
+Implementation
+```
+
+A contributor, document, AI system, or individual action cannot
+unilaterally redefine BAES scope.
+
+---
+
+## 14. Governance Records
+
+Significant governance events should be traceable through appropriate
+records.
+
+Relevant record types include:
+
+* Decision Records
+* Change Records
+* Review Records
+* Research Records
+* Case Study Records
+* Release Records
+
+Templates for these records are maintained under:
+
+`templates/`
+
+---
+
+## 15. Traceability
+
+BAES aims to preserve a traceable relationship between significant
+engineering events.
+
+A simplified model is:
+
+```text
+Research
+   ↓
+Decision
+   ↓
+Change
+   ↓
+Review
+   ↓
+Release
+```
+
+Not every artifact must pass through every stage.
+
+However, when a stage is materially relevant, its relationship should
+be identifiable.
+
+---
+
+## 16. Governance Questions
+
+For significant actions, the following questions should be answerable:
+
+1. What is being changed or decided?
+2. Why is it being changed or decided?
+3. What evidence supports the action?
+4. Who has authority to make the decision?
+5. Who has authority to execute it?
+6. What is the authorized scope?
+7. What review is required?
+8. What are the consequences?
+9. How will the result be verified?
+10. Where is the decision recorded?
+
+If these questions cannot be answered, the governance state may be
+insufficiently defined.
+
+---
+
+## 17. Governance and Evidence
+
+Governance decisions should not be confused with evidence claims.
+
+In particular:
+
+```text
+Decision
+    ≠
+Evidence
+
+Evidence
+    ≠
+Validity
+
+Validity
+    ≠
+Authority
+```
+
+A decision may be made under uncertainty.
+
+When uncertainty is material, it should be represented explicitly
+rather than hidden by the decision record.
+
+---
+
+## 18. Governance and AI
+
+AI systems may assist governance activities such as:
+
+* Identifying inconsistencies
+* Summarizing evidence
+* Detecting missing information
+* Performing impact analysis
+* Suggesting alternatives
+* Supporting review
+
+However, AI assistance does not automatically constitute governance
+authority.
+
+Where AI produces a recommendation, the recommendation should remain
+distinguishable from the human decision that accepts, modifies, or
+rejects it.
+
+---
+
+## 19. Conflict Handling
+
+When two governance-relevant artifacts appear to conflict, the conflict
+should be made explicit.
+
+The preferred approach is:
+
+```text
+Identify Conflict
+       ↓
+Record Conflict
+       ↓
+Determine Applicable Authority
+       ↓
+Review
+       ↓
+Decision
+       ↓
+Update Traceability
+```
+
+Conflicts should not be silently resolved by changing one artifact
+without recording the reason.
+
+---
+
+## 20. Governance Failure Modes
+
+BAES recognizes several potential governance failure modes, including:
+
+* Implicit authority
+* Uncontrolled delegation
+* Unauthorized scope expansion
+* Unreviewed normative changes
+* Confusion between recommendation and decision
+* Confusion between execution and authorization
+* Publication of immature material
+* Loss of decision traceability
+* Evidence being treated as automatically valid
+* AI-generated material being treated as authoritative
+
+These failure modes should be considered during appropriate reviews.
+
+---
+
+## 21. Emergency Actions
+
+Certain engineering situations may require immediate action to
+prevent significant harm to the project, its artifacts, or its
+engineering record.
+
+Emergency mechanisms may therefore exist where appropriate.
+
+Any emergency action should be:
+
+* Explicitly identified as an emergency action
+* Limited to the necessary scope
+* Recorded
+* Reviewed retrospectively where appropriate
+* Reconciled with normal governance processes
+
+The existence of an emergency mechanism should not become a mechanism
+for routine bypass of governance.
+
+---
+
+## 22. Governance Evolution
+
+The governance model of BAES is itself subject to controlled
+engineering evolution.
+
+Future changes may introduce:
+
+* Additional authority categories
+* More detailed approval levels
+* Risk-based governance
+* Delegation mechanisms
+* Formal release gates
 * Conformance governance
-* External participation
-* Governance records
+* External review mechanisms
 
-These mechanisms will be developed progressively and documented when
-sufficiently mature.
+Such changes should themselves be traceable.
 
 ---
 
-## 15. Current Governance Position
+## 23. Current Governance Status
 
-BAES currently operates under the following high-level direction:
+BAES governance is currently under development.
 
-1. Human authority remains primary.
-2. AI participation is delegated and bounded.
-3. Project scope must not expand autonomously.
-4. Significant changes should be traceable.
-5. Publication must be deliberate.
-6. Evidence validity remains distinct from governance status.
-7. Unreleased foundational work remains subject to controlled disclosure.
-8. Governance mechanisms will become more formal as the standard matures.
+This document describes the public governance model at its current
+stage.
+
+It should not be interpreted as a complete disclosure of all internal
+or restricted governance mechanisms.
 
 ---
 
-## 16. Governance Principle
+## 24. Related Documents
 
-The current working governance principle is:
+### Project
 
-> **BAES evolves through explicit human-governed decisions, controlled
-> delegation, traceable change, deliberate publication, and progressive
-> review.**
+* `README.md`
+* `CONTRIBUTING.md`
 
----
+### Public Documentation
 
-## 17. Related Documents
-
+* `docs/what-is-baes.md`
+* `docs/why-does-baes-exist.md`
 * `docs/current-status.md`
 * `docs/roadmap.md`
 * `docs/publication-policy.md`
-* `docs/what-is-baes.md`
-* `docs/why-does-baes-exist.md`
+
+### Records
+
+* `records/README.md`
+
+### Templates
+
+* `templates/decision-record.md`
+* `templates/research-record.md`
+* `templates/case-study.md`
+* `templates/change-record.md`
+* `templates/review-record.md`
+* `templates/release-record.md`
+
+---
+
+## 25. Final Principle
+
+> **Governance exists to ensure that authority, intent, decision,
+> execution, review, and publication remain explicit and traceable.**
 
