@@ -5,7 +5,7 @@
 **Document Status:** Public  
 **Project Status:** Under Development  
 **Policy Version:** 0.1  
-**Last Updated:** `YYYY-MM-DD`
+**Last Updated:** 2026-08-19
 
 ---
 
